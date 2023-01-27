@@ -1,0 +1,83 @@
+.Buttons{
+  position: absolute;
+  width: 437px;
+  height: 507px;
+  left: 0;
+  top: 245px;
+  color: #000000;
+  padding-top: 20px;
+  background: #001B2F;
+  border-radius: 20px;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+}
+
+.Button{
+  position: relative;
+  border-radius: 50px;
+  height: 65px;
+  width: 65px;
+  background-color: #a2b9cb;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 65px;
+  font-size: 30px;
+  margin-left: 20px;
+  margin-bottom: 10px;
+  cursor: grab;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.Button:hover {
+  background-color: #ffffff;
+}
+
+.Button:active{
+  background-color: #a2b9cb;
+}
+
+.N{
+  background-color: #ffffff;
+}
+
+.N:hover{
+  background-color: blue;
+  color: aqua;
+}
+
+.N:active{
+  background-color: #ffffff;
+  color: black;
+}
+
+.C{
+  background-color: blue;
+  color: aqua;
+}
+
+.C:hover{
+  background-color: #a2b9cb;
+  color: black;
+}
+
+.C:active{
+  background-color: blue;
+  color: white;
+}
+
+.D{
+  background-color: red;
+}
+
+.D:hover{
+  background-color: black;
+  color: white;
+}
+
+.D:active{
+  background-color: red;
+  color: black;
+}
+
